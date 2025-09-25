@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* Navegação */
+
+
+
+/* Pagina Sobre */
+.foto-grupo{
+	display: flex;
+	float: right;
+	
+}

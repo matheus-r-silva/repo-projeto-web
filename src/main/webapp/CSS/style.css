@@ -1,12 +1,15 @@
 @charset "UTF-8";
 
-/* Navegação */
+/* Páginas */
+p{
+	font-family: "Arial";
+	font-size: large;
+}
+
+/* cabeçalho páginas */
 
 
-
-/* Pagina Sobre */
-.foto-grupo{
-	display: flex;
-	float: right;
-	
+/* Corpo da pagina */
+body{
+	background-color: #C8FCEA;
 }

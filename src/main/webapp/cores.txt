@@ -1,0 +1,5 @@
+Paletas de cores para usar no site:
+- #ffffff
+- #00754b
+- #c8fcea
+- #6a9a8b

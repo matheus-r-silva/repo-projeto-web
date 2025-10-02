@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*.secao-denuncia{
+	display: flex;
+	margin: 10px;
+	padding: 15px;
+	left: auto;
+	height: 100vh;
+}*/
+
+
+.secao-denuncia {
+	/* 1. Ativa o modo Flexbox para controlar o alinhamento dos itens internos. */
+	display: flex;
+	/* 2. Empilha os itens verticalmente (o título ficará em cima do formulário). */
+	flex-direction: column;
+
+	/* 3. (Opcional) Adiciona uma borda para que você possa visualizar o container. */
+	border: 1px solid #ddd;
+	border-radius: 8px;  
+	padding: 25px;
+	margin: 20px;
+
+	/* 5. Chave para o alinhamento: faz o container ter a largura do seu conteúdo.
+	      Como ele é um elemento de bloco, ele se alinhará à esquerda naturalmente. */
+	width: fit-content;
+
+    /* Removemos o 'height: 100vh' para que a altura também se ajuste ao conteúdo. */
+}
+
+/*
+ * Estiliza o título DENTRO do container.
+ */
+.secao-denuncia h2 {
+	/* Alinha o texto do título ao centro do container. */
+	text-align: center;
+
+	/* Remove a margem padrão do topo para um melhor alinhamento. */
+	margin-top: 0;
+}
+
+/*
+ * Adiciona um espaçamento entre os campos do formulário para melhor legibilidade.
+ */
+.formulario-denuncia {
+	margin-bottom: 15px; 
+}
+
+input, textarea {
+	margin-top: 5px;
+	padding: 8px;
+	width: 100%;
+	box-sizing: border-box;  
+}
+

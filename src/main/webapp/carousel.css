@@ -9,6 +9,24 @@ body {
   color: rgb(var(--bs-tertiary-color-rgb));
 }
 
+/* RODAPE */
+footer.container {
+  /* 1. Posição fixa em relação à janela do navegador */
+  position: fixed;
+
+  /* 2. "Cola" ele na parte de baixo */
+  bottom: 0;
+
+  /* 3. Garante que ele ocupe toda a largura */
+  left: 0;
+  width: 100%;
+
+  /* Estilos para visualização */
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */

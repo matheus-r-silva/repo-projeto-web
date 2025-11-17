@@ -7,7 +7,7 @@ import com.cidadania.model.entities.Usuario;
 public interface UsuarioDao {
 	void inserir(Usuario obj);
 	void atualizar(Usuario obj);
-	void deletarPorId(Integer id);
-	Usuario acharPorId(Integer id);
-	List<Usuario> encontreTodos();
+	void deletarPorId(Usuario obj);
+	Usuario acharPorId(Usuario obj);
+	List<Usuario> listarTodos();
 }

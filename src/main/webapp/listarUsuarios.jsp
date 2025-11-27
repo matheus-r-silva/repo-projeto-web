@@ -9,6 +9,8 @@
 		<title>Listar Usuarios</title>
 	</head>
 	<body>
+		<%@ include file="header.jsp"%>
+		<br>
 		 <table>
 		 	<%
 		 	UsuarioDao dao = new UsuarioDaoJDBC();
